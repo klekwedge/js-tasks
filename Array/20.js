@@ -14,4 +14,5 @@ function compare(a, b) {
   return 0;
 }
 
-console.log(litmir.sort(compare).map((item) => item.title)); // [ 'Восстание Аркан', 'Золотая лилия', 'Улетела сказка' ]
+console.log(litmir.sort(compare).map((item) => item.title).join(' ')); 
+// Восстание Аркан Золотая лилия Улетела сказка
