@@ -5,6 +5,4 @@
 
 const numerics = [5, 7, 2, 9, 3, 1, 8];
 
-// Ваш код
-
 console.log(numerics.sort((a, b) => b - a)); // [9, 8, 7, 5, 3, 2, 1]
