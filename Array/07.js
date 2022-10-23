@@ -11,5 +11,11 @@ function shuffle(arr) {
   return arr
 }
 
+// function shuffle() {
+//   return 0.5 - Math.random();
+// }
+
+// array.sort(shuffle);
+
 const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 console.log(shuffle(array)); // [5, 4, 7, 6, 0, 3, 1, 2, 9, 8]
