@@ -2,12 +2,12 @@
 // Напишите функцию copyArr(arr), которая копирует
 // массив не изменяя оригинал.
 
-function arrayClone(arr) {
+function copyArr(arr) {
   return [...arr]
 }
 
 const vegetables = ['Капуста', 'Репа', 'Редиска', 'Морковка'];
-const arr = arrayClone(vegetables);
+const arr = copyArr(vegetables);
 
 vegetables[0] = 'Редиска';
 
